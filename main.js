@@ -13,7 +13,7 @@ const button10 = document.querySelector('.button10');
 const button15 = document.querySelector('button15');
 const button25 = document.querySelector('button25');
 const button50 = document.querySelector('button50');
-const buttonCustom = document.querySelector('.buttonCustom');
+//const buttonCustom = document.querySelector('.buttonCustom');
 
 //const noOfPeople = document.querySelector('.noOfPeople');*/
 
@@ -58,6 +58,7 @@ const totalCost = document.querySelector('.totalCost');
 
 const myAnonFunc = function(){
     let inputV = document.querySelector(".myVal").value
+    let buttonCustom = document.querySelector('.buttonCustom')
    if(noOfPeople.value >= 1){
     total = inputV/noOfPeople.value
     inputV = inputV/noOfPeople.value
@@ -66,7 +67,14 @@ const myAnonFunc = function(){
         warningMsg.classList.remove('warningMsg')
 
     }
-   inputV = (inputV/10)/2;
+    if(buttonCustom.value > 0){
+       custo = inputV*buttonCustom.value / 100
+        console.log(custo)
+        
+    }
+   /*inputV = (inputV/10)/2;*/
+   inputV = inputV/10;
+   inputV = 
 
    tipAmount.innerHTML = inputV
    totalCost.innerHTML = total
@@ -74,11 +82,42 @@ const myAnonFunc = function(){
 
     //console.log(inputV)
     //console.log(total)
+    
+    //const buttonCustom = document.querySelector('.buttonCustom');
+
+
+
+
+
 }
 
 
 
-button5.addEventListener('click', myAnonFunc) 
+
+    
+
+
+    button5.addEventListener('click', myAnonFunc)
+
+
+
+
+
+
+
+//when you enter a .value on the custom buttton and its >0
+
+//i want the cursor to go back to pointer
+
+
+//when its clicked then do the calculations
+
+
+
+
+
+
+
 
 
 
