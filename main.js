@@ -7,6 +7,7 @@ const bill = document.querySelector('.showBill');
 
 
 
+
 //const button5 = document.querySelector('.button5');
 const button10 = document.querySelector('.button10');
 const button15 = document.querySelector('button15');
