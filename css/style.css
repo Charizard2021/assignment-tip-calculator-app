@@ -17,6 +17,17 @@ input{
 
 
 
+.buttonCustom{
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.buttonCustom:focus{
+    cursor: text;
+}
+
+
 
 .warningMsgShow{
     color: red;
