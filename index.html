@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <div class="mainContainer">
+        <div class="header">
+          <img src="\images\logo.svg" alt="">
+        </div>
+        <div class="mainSection">
+          <div class="main-left-side">
+            <div class="inputDisplay">
+              <h3>Bill</h3>
+              <input class="myVal" type="text" placeholder="0" id="myInput">
+              <img src="\images\icon-dollar.svg" alt="">
+            </div>
+            <div class="tipSelectionSection">
+              <h3>Select Tip %</h3>
+              <div class="tipButtons">
+                <button class="button5">5%</button>
+                <button class="button10">10%</button>
+                <button class="button15">15%</button>
+                <button class="button25">25%</button>
+                <button class="button50">50%</button>
+                <button class="buttonCustom">Custom</button>
+              </div>
+            </div>
+            <div class="numberOfPeopleDisplay">
+              <h3>Number of People</h3>
+              <h3 class="warningMsg warningMsgShow">Can't be zero</h3>
+              <input class="noOfPeople" type="text" placeholder="0">
+              <img src="\images\icon-person.svg" alt="">
+            </div>
+          </div>
+          <div class="main-right-side">
+            <div class="child1">
+              <h3>Tip Amount <br> / person</h3>
+              <div class="tipAmount">0.00</div>
+            </div>
+            <div class="child1">
+              <h3>Total <br> / person </h3>
+              <div class="totalCost">0.00</div>
+            </div>
+            <div>
+              <button class="resetButt">Reset</button>
+              <button rol></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>

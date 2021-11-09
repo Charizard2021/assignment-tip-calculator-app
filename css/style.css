@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0;
+}
+
+input{
+    text-align: right;
+}
+
+
+
+.warningMsg{
+    display: none;
+    color: red;
+}
+
+
+
+.warningMsgShow{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showBill{
+    /*display: none;*/
+
+}
+
+.showBillHide{
+    display: none;
+}
+
+.borderDec{
+    border: 2px solid black;
+    background: yellow;
+
+}
+.borderDec2{
+    border: 3px dotted crimson;
+    background: steelblue;
+}
+
+.borderDec3{
+    border: 5px solid plum;
+    background: salmon;
+}
